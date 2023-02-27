@@ -1,1111 +1,922 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samar - HTML Template</title>
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- FONT AWESOME -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- ANIMATE CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <!-- LINE AWESOME -->
-    <link
-      rel="stylesheet"
-      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
-    />
-    <!-- FLATICON -->
-    <link rel="stylesheet" href="./flaticon/flaticon.css" />
-    <!-- FANCY BOX -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
-    />
-    <!-- OWL CAROUSEL -->
-    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/owl.carousel.min.css" />
-    <link
-      rel="stylesheet"
-      href="./OwlCarousel2-2.3.4/owl.theme.default.min.css"
-    />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Samar - HTML Template</title>
+        <!-- FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- FONT AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- ANIMATE CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <!-- LINE AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+        />
+        <!-- FLATICON -->
+        <link rel="stylesheet" href="./flaticon/flaticon.css" />
+        <!-- FANCY BOX -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+        />
 
-    <!-- SWIPER -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
+        <!-- OWL CAROUSEL -->
+        <link
+            rel="stylesheet"
+            href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+        />
 
-    <!-- MY CSS -->
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header__content">
-          <a href="#">
-            <img src="./Samar/logo-2.png" alt="samar logo" />
-          </a>
-          <nav>
-            <ul>
-              <li>
-                <a href="#">
-                  <span>Home</span>
-                  <i class="fa fa-chevron-down"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>Page</span>
-                  <i class="fa fa-chevron-down"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>Services</span>
-                  <i class="fa fa-chevron-down"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>Post Layout</span>
-                  <i class="fa fa-chevron-down"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>Blog</span>
-                  <i class="fa fa-chevron-down"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>Contact Us</span>
-                  <i class="fa fa-chevron-down"></i>
-                </a>
-              </li>
-            </ul>
-            <div class="btn_style">GET A QUOTE</div>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <section class="carousel">
-      <div class="container">
-        <div class="carousel__content">
-          <div class="carousel__left">
-            <div class="title">
-              <h2 class="animate__animated animate__fadeInUp">
-                We are The Best
-              </h2>
-              <h1 class="animate__animated animate__fadeInUp animate__delay-1s">
-                Freelance Product Designer Running
-              </h1>
-            </div>
-            <div class="content">
-              <p class="animate__animated animate__fadeInUp animate__delay-1s">
-                We develop the relationships that underpin the next phase in
-                your <br />
-                organisation’s growth.
-              </p>
-              <ul class="animate__animated animate__fadeInUp animate__delay-3s">
-                <li>
-                  <i class="las la-check"></i>
-                  Master's degree in designing
-                </li>
-                <li>
-                  <i class="las la-check"></i>
-                  Outstanding mobile design
-                </li>
-              </ul>
-              <button
-                class="btn_style animate__animated animate__fadeInUp animate__delay-4s"
-              >
-                GET START
-              </button>
-            </div>
-          </div>
-          <div class="carousel__right">
-            <div
-              class="manpicture animate__animated animate__fadeInUp animate__delay-3s"
-            >
-              <img src="./Samar/pic3_1.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="services top_padding">
-      <div class="container">
-        <div class="title">
-          <h2>What We Do Best</h2>
-          <h1>Our Digital Services</h1>
-        </div>
-        <div class="services__content">
-          <div class="services__item">
-            <img src="./Samar/pic1_3.jpg" alt="" />
-            <h3>Web Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-              exercitationem blanditiis adipisci esse, voluptatem minima.
-            </p>
-          </div>
-          <div class="services__item">
-            <img src="./Samar/pic2_2.jpg" alt="" />
-            <h3>Strategy & Research</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-              exercitationem blanditiis adipisci esse, voluptatem minima.
-            </p>
-          </div>
-          <div class="services__item">
-            <img src="./Samar/pic3_2.jpg" alt="" />
-            <h3>Growth Tracking</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-              exercitationem blanditiis adipisci esse, voluptatem minima.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="aboutUs top_padding">
-      <div class="container">
-        <div class="aboutUs__content">
-          <div
-            class="aboutUs__left wow animate__ animate__fadeInLeft animated"
-            data-wow-duration="2s"
-            data-wow-delay="0.2s"
-            style="
-              visibility: visible;
-              animation-duration: 2s;
-              animation-delay: 0.2s;
-              animation-name: fadeInLeft;
-            "
-          >
-            <img src="./Samar/pic1.jpg" alt="" />
-          </div>
-          <div
-            class="aboutUs__right wow animate__ animate__fadeInRight animated"
-            data-wow-duration="2s"
-            data-wow-delay="0.2s"
-            style="
-              visibility: visible;
-              animation-duration: 2s;
-              animation-delay: 0.2s;
-              animation-name: fadeInRight;
-            "
-          >
-            <div class="title">
-              <h2>About Us</h2>
-              <h1>
-                Build Your <br />
-                Business Website <br />
-                Better
-              </h1>
-            </div>
-            <p>
-              Proin laoreet leo vel enim gravida, at porttitor metus ultricies.
-              Cras eu velit enim. Vivamus blandit, dolor ut aliquet rutrum, ex
-              elit mattis sapien, non molestie felis neque et nulla. Sed euismod
-              turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.
-            </p>
-            <ul>
-              <li>
-                <i class="flaticon-check"></i>
-                We support programs that create advancement opportunities for
-                people.
-              </li>
-              <li>
-                <i class="flaticon-check"></i>
-                Get a view of events and trends. Be updated on our recent news.
-              </li>
-              <li>
-                <i class="flaticon-check"></i>
-                Finally, it all comes down to people. Creating a winning team.
-              </li>
-              <li>
-                <i class="flaticon-check"></i>
-                Get a view of events and trends. Be updated on our recent news.
-              </li>
-            </ul>
-            <button class="btn_style">LEARN MORE</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="number">
-      <div class="container">
-        <div class="number__content">
-          <div class="number__item">
-            <i class="flaticon-smile"></i>
-            <p><span class="counter">18</span> Ml</p>
-            <p>Satisfied Clients</p>
-          </div>
-          <div class="number__item">
-            <i class="flaticon-line-chart"></i>
-            <p><span class="counter">20</span> Ml</p>
-            <p>Project Completed</p>
-          </div>
-          <div class="number__item">
-            <i class="flaticon-startup"></i>
-            <p><span class="counter">30</span> Ml</p>
-            <p>Project Lunched</p>
-          </div>
-          <div class="number__item">
-            <i class="flaticon-confetti"></i>
-            <p><span class="counter">50</span></p>
-            <p>Years Completed</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="ourfeature top_padding">
-      <div class="container">
-        <div class="features__content">
-          <div class="features__left">
-            <div
-              class="title wow animate__ animate__fadeInLeft animated"
-              data-wow-duration="2s"
-              data-wow-delay="0.2s"
-              style="
-                visibility: visible;
-                animation-duration: 2s;
-                animation-delay: 0.2s;
-                animation-name: fadeInLeft;
-              "
-            >
-              <h2>Our Features</h2>
-              <h1>
-                Behind The Story <br />
-                Of Samar Agency
-              </h1>
-            </div>
-            <div class="features__group">
-              <div
-                class="features__item wow animate__ animate__fadeInRight animated"
-                data-wow-duration="2s"
-                data-wow-delay="0.4s"
-                style="
-                  visibility: visible;
-                  animation-duration: 2s;
-                  animation-delay: 0.4s;
-                  animation-name: fadeInRight;
-                "
-              >
-                <div class="features__bg">
-                  <i class="flaticon-idea"></i>
-                  <div>
-                    <h3>Idea & Analysis Gathering</h3>
-                    <p>
-                      Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
-                      leo, sit amet consequat augue.
-                    </p>
-                  </div>
+        <!-- SWIPER -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+        />
+
+        <!-- MY CSS -->
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header__content">
+                    <a href="#">
+                        <img src="./Samar/logo-2.png" alt="samar logo" />
+                    </a>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span>Home</span>
+                                    <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Page</span>
+                                    <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Services</span>
+                                    <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Post Layout</span>
+                                    <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Blog</span>
+                                    <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Contact Us</span>
+                                    <i class="fa fa-chevron-down"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="btn_style">GET A QUOTE</div>
+                    </nav>
                 </div>
-              </div>
-              <div
-                class="features__item wow animate__ animate__fadeInRight animated"
-                data-wow-duration="2s"
-                data-wow-delay="0.6s"
-                style="
-                  visibility: visible;
-                  animation-duration: 2s;
-                  animation-delay: 0.6s;
-                  animation-name: fadeInRight;
-                "
-              >
-                <div class="features__bg">
-                  <i class="flaticon-coding"></i>
-                  <div>
-                    <h3>Design & Developing</h3>
-                    <p>
-                      Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
-                      leo, sit amet consequat augue.
-                    </p>
-                  </div>
+            </div>
+        </header>
+        <section class="carousel">
+            <div class="container">
+                <div class="carousel__content">
+                    <div class="carousel__left">
+                        <div class="title">
+                            <h2 class="animate__animated animate__fadeInUp">
+                                We are The Best
+                            </h2>
+                            <h1
+                                class="animate__animated animate__fadeInUp animate__delay-1s"
+                            >
+                                Freelance Product Designer Running
+                            </h1>
+                        </div>
+                        <div class="content">
+                            <p
+                                class="animate__animated animate__fadeInUp animate__delay-1s"
+                            >
+                                We develop the relationships that underpin the next phase
+                                in your <br />
+                                organisation’s growth.
+                            </p>
+                            <ul
+                                class="animate__animated animate__fadeInUp animate__delay-3s"
+                            >
+                                <li>
+                                    <i class="las la-check"></i>
+                                    Master's degree in designing
+                                </li>
+                                <li>
+                                    <i class="las la-check"></i>
+                                    Outstanding mobile design
+                                </li>
+                            </ul>
+                            <button
+                                class="btn_style animate__animated animate__fadeInUp animate__delay-4s"
+                            >
+                                GET START
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel__right">
+                        <div
+                            class="manpicture animate__animated animate__fadeInUp animate__delay-3s"
+                        >
+                            <img src="./Samar/pic3_1.png" alt="" />
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div
-                class="features__item wow animate__ animate__fadeInRight animated"
-                data-wow-duration="2s"
-                data-wow-delay="0.8s"
-                style="
-                  visibility: visible;
-                  animation-duration: 2s;
-                  animation-delay: 0.8s;
-                  animation-name: fadeInRight;
-                "
-              >
-                <div class="features__bg">
-                  <i class="flaticon-rocket"></i>
-                  <div>
-                    <h3>Testing & Lunching</h3>
-                    <p>
-                      Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
-                      leo, sit amet consequat augue.
-                    </p>
-                  </div>
+            </div>
+        </section>
+        <section class="services top_padding">
+            <div class="container">
+                <div class="title">
+                    <h2>What We Do Best</h2>
+                    <h1>Our Digital Services</h1>
                 </div>
-              </div>
+                <div class="services__content">
+                    <div class="services__item">
+                        <img src="./Samar/pic1_3.jpg" alt="" />
+                        <h3>Web Development</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Pariatur exercitationem blanditiis adipisci esse, voluptatem
+                            minima.
+                        </p>
+                    </div>
+                    <div class="services__item">
+                        <img src="./Samar/pic2_2.jpg" alt="" />
+                        <h3>Strategy & Research</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Pariatur exercitationem blanditiis adipisci esse, voluptatem
+                            minima.
+                        </p>
+                    </div>
+                    <div class="services__item">
+                        <img src="./Samar/pic3_2.jpg" alt="" />
+                        <h3>Growth Tracking</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Pariatur exercitationem blanditiis adipisci esse, voluptatem
+                            minima.
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="features__right">
-            <div class="features__banner">
-              <img src="./Samar/pic3.png" alt="" />
+        </section>
+        <section class="aboutUs top_padding">
+            <div class="container">
+                <div class="aboutUs__content">
+                    <div
+                        class="aboutUs__left wow animate__ animate__fadeInLeft animated"
+                        data-wow-duration="2s"
+                        data-wow-delay="0.2s"
+                        style="
+                            visibility: visible;
+                            animation-duration: 2s;
+                            animation-delay: 0.2s;
+                            animation-name: fadeInLeft;
+                        "
+                    >
+                        <img src="./Samar/pic1.jpg" alt="" />
+                    </div>
+                    <div
+                        class="aboutUs__right wow animate__ animate__fadeInRight animated"
+                        data-wow-duration="2s"
+                        data-wow-delay="0.2s"
+                        style="
+                            visibility: visible;
+                            animation-duration: 2s;
+                            animation-delay: 0.2s;
+                            animation-name: fadeInRight;
+                        "
+                    >
+                        <div class="title">
+                            <h2>About Us</h2>
+                            <h1>
+                                Build Your <br />
+                                Business Website <br />
+                                Better
+                            </h1>
+                        </div>
+                        <p>
+                            Proin laoreet leo vel enim gravida, at porttitor metus
+                            ultricies. Cras eu velit enim. Vivamus blandit, dolor ut
+                            aliquet rutrum, ex elit mattis sapien, non molestie felis
+                            neque et nulla. Sed euismod turpis id nibh suscipit semper.
+                            Pellentesque dapibus risus arcu.
+                        </p>
+                        <ul>
+                            <li>
+                                <i class="flaticon-check"></i>
+                                We support programs that create advancement opportunities
+                                for people.
+                            </li>
+                            <li>
+                                <i class="flaticon-check"></i>
+                                Get a view of events and trends. Be updated on our recent
+                                news.
+                            </li>
+                            <li>
+                                <i class="flaticon-check"></i>
+                                Finally, it all comes down to people. Creating a winning
+                                team.
+                            </li>
+                            <li>
+                                <i class="flaticon-check"></i>
+                                Get a view of events and trends. Be updated on our recent
+                                news.
+                            </li>
+                        </ul>
+                        <button class="btn_style">LEARN MORE</button>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="portfolio top_padding">
-      <div class="container">
-        <div class="title">
-          <h2>Portfolio</h2>
-          <h1>Our Latest Work</h1>
-        </div>
-        <div class="portfolio__content" id="animated-thumbnails">
-          <div
-            class="portfolio__item portfolio__item1 wow animate__animated animate__fadeInUp"
-            style="visibility: visible; animation-name: fadeInUp"
-          >
-            <img src="./Samar/pic1_2.jpg" alt="" />
-            <div class="portfolio__overlay">
-              <div class="portfolio__icon">
-                <a
-                  class="lightimg"
-                  data-thumb="./Samar/pic1_2.jpg"
-                  data-fancybox="gallery"
-                  href="./Samar/pic1_2.jpg"
-                  data-caption="Design 1"
-                >
-                  <i class="la la-plus"></i>
-                </a>
-              </div>
-              <div class="portfolio__text">
-                <h3>Software Landing</h3>
-                <p>By Jhone Doe</p>
-              </div>
+        </section>
+        <section class="number">
+            <div class="container">
+                <div class="number__content">
+                    <div class="number__item">
+                        <i class="flaticon-smile"></i>
+                        <p><span class="counter">18</span> Ml</p>
+                        <p>Satisfied Clients</p>
+                    </div>
+                    <div class="number__item">
+                        <i class="flaticon-line-chart"></i>
+                        <p><span class="counter">20</span> Ml</p>
+                        <p>Project Completed</p>
+                    </div>
+                    <div class="number__item">
+                        <i class="flaticon-startup"></i>
+                        <p><span class="counter">30</span> Ml</p>
+                        <p>Project Lunched</p>
+                    </div>
+                    <div class="number__item">
+                        <i class="flaticon-confetti"></i>
+                        <p><span class="counter">50</span></p>
+                        <p>Years Completed</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div
-            class="portfolio__item wow animate__animated animate__fadeInUp"
-            style="visibility: visible; animation-name: fadeInUp"
-          >
-            <img src="./Samar/pic2_1.jpg" alt="" />
-            <div class="portfolio__overlay">
-              <div class="portfolio__icon">
-                <a
-                  class="lightimg"
-                  data-thumb="./Samar/pic2_1.jpg"
-                  data-fancybox="gallery"
-                  href="./Samar/pic2_1.jpg"
-                  data-caption="Design 2"
-                >
-                  <i class="la la-plus"></i>
-                </a>
-              </div>
-              <div class="portfolio__text">
-                <h3>Software Landing</h3>
-                <p>By Jhone Doe</p>
-              </div>
+        </section>
+        <section class="ourfeature top_padding">
+            <div class="container">
+                <div class="features__content">
+                    <div class="features__left">
+                        <div
+                            class="title wow animate__ animate__fadeInLeft animated"
+                            data-wow-duration="2s"
+                            data-wow-delay="0.2s"
+                            style="
+                                visibility: visible;
+                                animation-duration: 2s;
+                                animation-delay: 0.2s;
+                                animation-name: fadeInLeft;
+                            "
+                        >
+                            <h2>Our Features</h2>
+                            <h1>
+                                Behind The Story <br />
+                                Of Samar Agency
+                            </h1>
+                        </div>
+                        <div class="features__group">
+                            <div
+                                class="features__item wow animate__ animate__fadeInRight animated"
+                                data-wow-duration="2s"
+                                data-wow-delay="0.4s"
+                                style="
+                                    visibility: visible;
+                                    animation-duration: 2s;
+                                    animation-delay: 0.4s;
+                                    animation-name: fadeInRight;
+                                "
+                            >
+                                <div class="features__bg">
+                                    <i class="flaticon-idea"></i>
+                                    <div>
+                                        <h3>Idea & Analysis Gathering</h3>
+                                        <p>
+                                            Maecenas laoreet efficitur sagittis. Aliquam
+                                            eleifend nisl leo, sit amet consequat augue.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="features__item wow animate__ animate__fadeInRight animated"
+                                data-wow-duration="2s"
+                                data-wow-delay="0.6s"
+                                style="
+                                    visibility: visible;
+                                    animation-duration: 2s;
+                                    animation-delay: 0.6s;
+                                    animation-name: fadeInRight;
+                                "
+                            >
+                                <div class="features__bg">
+                                    <i class="flaticon-coding"></i>
+                                    <div>
+                                        <h3>Design & Developing</h3>
+                                        <p>
+                                            Maecenas laoreet efficitur sagittis. Aliquam
+                                            eleifend nisl leo, sit amet consequat augue.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="features__item wow animate__ animate__fadeInRight animated"
+                                data-wow-duration="2s"
+                                data-wow-delay="0.8s"
+                                style="
+                                    visibility: visible;
+                                    animation-duration: 2s;
+                                    animation-delay: 0.8s;
+                                    animation-name: fadeInRight;
+                                "
+                            >
+                                <div class="features__bg">
+                                    <i class="flaticon-rocket"></i>
+                                    <div>
+                                        <h3>Testing & Lunching</h3>
+                                        <p>
+                                            Maecenas laoreet efficitur sagittis. Aliquam
+                                            eleifend nisl leo, sit amet consequat augue.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="features__right">
+                        <div class="features__banner">
+                            <img src="./Samar/pic3.png" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div
-            class="portfolio__item wow animate__ wow animate__animated animate__fadeInUp animate__delay-1s"
-            style="visibility: visible; animation-name: fadeInUp"
-          >
-            <img src="./Samar/pic3_1.jpg" alt="" />
-            <div class="portfolio__overlay">
-              <div class="portfolio__icon">
-                <a
-                  class="lightimg"
-                  data-thumb="./Samar/pic3_1.jpg"
-                  data-fancybox="gallery"
-                  href="./Samar/pic3_1.jpg"
-                  data-caption="Design 3"
-                >
-                  <i class="la la-plus"></i>
-                </a>
-              </div>
-              <div class="portfolio__text">
-                <h3>Software Landing</h3>
-                <p>By Jhone Doe</p>
-              </div>
+        </section>
+        <section class="portfolio top_padding">
+            <div class="container">
+                <div class="title">
+                    <h2>Portfolio</h2>
+                    <h1>Our Latest Work</h1>
+                </div>
+                <div class="portfolio__content" id="animated-thumbnails">
+                    <div
+                        class="portfolio__item portfolio__item1 wow animate__animated animate__fadeInUp"
+                        style="visibility: visible; animation-name: fadeInUp"
+                    >
+                        <img src="./Samar/pic1_2.jpg" alt="" />
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__icon">
+                                <a
+                                    class="lightimg"
+                                    data-thumb="./Samar/pic1_2.jpg"
+                                    data-fancybox="gallery"
+                                    href="./Samar/pic1_2.jpg"
+                                    data-caption="Design 1"
+                                >
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="portfolio__item wow animate__animated animate__fadeInUp"
+                        style="visibility: visible; animation-name: fadeInUp"
+                    >
+                        <img src="./Samar/pic2_1.jpg" alt="" />
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__icon">
+                                <a
+                                    class="lightimg"
+                                    data-thumb="./Samar/pic2_1.jpg"
+                                    data-fancybox="gallery"
+                                    href="./Samar/pic2_1.jpg"
+                                    data-caption="Design 2"
+                                >
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="portfolio__item wow animate__ wow animate__animated animate__fadeInUp animate__delay-1s"
+                        style="visibility: visible; animation-name: fadeInUp"
+                    >
+                        <img src="./Samar/pic3_1.jpg" alt="" />
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__icon">
+                                <a
+                                    class="lightimg"
+                                    data-thumb="./Samar/pic3_1.jpg"
+                                    data-fancybox="gallery"
+                                    href="./Samar/pic3_1.jpg"
+                                    data-caption="Design 3"
+                                >
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="portfolio__item wow animate__animated animate__fadeInUp animate__delay-1s"
+                        style="visibility: visible; animation-name: fadeInUp"
+                    >
+                        <img src="./Samar/pic4.jpg" alt="" />
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__icon">
+                                <a
+                                    class="lightimg"
+                                    data-thumb="./Samar/pic4.jpg"
+                                    data-fancybox="gallery"
+                                    href="./Samar/pic4.jpg"
+                                    data-caption="Design 4"
+                                >
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="portfolio__item portfolio__item5 wow animate__animated animate__fadeInUp animate__delay-2s"
+                        style="visibility: visible; animation-name: fadeInUp"
+                    >
+                        <img src="./Samar/pic5.jpg" alt="" />
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__icon">
+                                <a
+                                    class="lightimg"
+                                    data-thumb="./Samar/pic5.jpg"
+                                    data-fancybox="gallery"
+                                    href="./Samar/pic5.jpg"
+                                    data-caption="Design 5"
+                                >
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="portfolio__item portfolio__item6 wow animate__animated animate__fadeInUp animate__delay-1s"
+                        style="visibility: visible; animation-name: fadeInUp"
+                    >
+                        <img src="./Samar/pic6.jpg" alt="" />
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__icon">
+                                <a
+                                    class="lightimg"
+                                    data-thumb="./Samar/pic6.jpg"
+                                    data-fancybox="gallery"
+                                    href="./Samar/pic6.jpg"
+                                    data-caption="Design 6"
+                                >
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div
-            class="portfolio__item wow animate__animated animate__fadeInUp animate__delay-1s"
-            style="visibility: visible; animation-name: fadeInUp"
-          >
-            <img src="./Samar/pic4.jpg" alt="" />
-            <div class="portfolio__overlay">
-              <div class="portfolio__icon">
-                <a
-                  class="lightimg"
-                  data-thumb="./Samar/pic4.jpg"
-                  data-fancybox="gallery"
-                  href="./Samar/pic4.jpg"
-                  data-caption="Design 4"
-                >
-                  <i class="la la-plus"></i>
-                </a>
-              </div>
-              <div class="portfolio__text">
-                <h3>Software Landing</h3>
-                <p>By Jhone Doe</p>
-              </div>
+        </section>
+        <section class="blog top_padding">
+            <div class="container">
+                <div class="title">
+                    <h2>Our Blog</h2>
+                    <h1>Latest News & Blog</h1>
+                </div>
+                <div class="blog__content">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="blog__item">
+                                <div class="blog__header">
+                                    <img src="./Samar/pic1_1.jpg" alt="" />
+                                    <p>23 MARCH 2022</p>
+                                </div>
+                                <div class="blog__body">
+                                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                                    <p>
+                                        Nunc convallis sagittis dui eu dictum. Cras
+                                        sodales id ipsum ac aliquam. Phasellus justo quam.
+                                    </p>
+                                </div>
+                                <div class="blog__footer">
+                                    <p>
+                                        <i class="las la-user-circle"></i>
+                                        By
+                                        <span>Johne Doe</span>
+                                    </p>
+                                    <p>
+                                        <i class="las la-comment"></i>
+                                        <span>Comments 15</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="blog__item">
+                                <div class="blog__header">
+                                    <img src="./Samar/pic2.jpg" alt="" />
+                                    <p>23 MARCH 2022</p>
+                                </div>
+                                <div class="blog__body">
+                                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                                    <p>
+                                        Nunc convallis sagittis dui eu dictum. Cras
+                                        sodales id ipsum ac aliquam. Phasellus justo quam.
+                                    </p>
+                                </div>
+                                <div class="blog__footer">
+                                    <p>
+                                        <i class="las la-user-circle"></i>
+                                        By
+                                        <span>Johne Doe</span>
+                                    </p>
+                                    <p>
+                                        <i class="las la-comment"></i>
+                                        <span>Comments 20</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="blog__item">
+                                <div class="blog__header">
+                                    <img src="./Samar/pic3.jpg" alt="" />
+                                    <p>23 MARCH 2022</p>
+                                </div>
+                                <div class="blog__body">
+                                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                                    <p>
+                                        Nunc convallis sagittis dui eu dictum. Cras
+                                        sodales id ipsum ac aliquam. Phasellus justo quam.
+                                    </p>
+                                </div>
+                                <div class="blog__footer">
+                                    <p>
+                                        <i class="las la-user-circle"></i>
+                                        By
+                                        <span>Johne Doe</span>
+                                    </p>
+                                    <p>
+                                        <i class="las la-comment"></i>
+                                        <span>Comments 20</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div
-            class="portfolio__item portfolio__item5 wow animate__animated animate__fadeInUp animate__delay-2s"
-            style="visibility: visible; animation-name: fadeInUp"
-          >
-            <img src="./Samar/pic5.jpg" alt="" />
-            <div class="portfolio__overlay">
-              <div class="portfolio__icon">
-                <a
-                  class="lightimg"
-                  data-thumb="./Samar/pic5.jpg"
-                  data-fancybox="gallery"
-                  href="./Samar/pic5.jpg"
-                  data-caption="Design 5"
-                >
-                  <i class="la la-plus"></i>
-                </a>
-              </div>
-              <div class="portfolio__text">
-                <h3>Software Landing</h3>
-                <p>By Jhone Doe</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="portfolio__item portfolio__item6 wow animate__animated animate__fadeInUp animate__delay-1s"
-            style="visibility: visible; animation-name: fadeInUp"
-          >
-            <img src="./Samar/pic6.jpg" alt="" />
-            <div class="portfolio__overlay">
-              <div class="portfolio__icon">
-                <a
-                  class="lightimg"
-                  data-thumb="./Samar/pic6.jpg"
-                  data-fancybox="gallery"
-                  href="./Samar/pic6.jpg"
-                  data-caption="Design 6"
-                >
-                  <i class="la la-plus"></i>
-                </a>
-              </div>
-              <div class="portfolio__text">
-                <h3>Software Landing</h3>
-                <p>By Jhone Doe</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="blog top_padding">
-      <div class="container">
-        <div class="title">
-          <h2>Our Blog</h2>
-          <h1>Latest News & Blog</h1>
-        </div>
-        <div class="blog__content">
-          <div class="owl-carousel owl-theme owl-loaded owl-drag">
-            <div class="owl-stage-outer">
-              <div
-                class="owl-stage"
-                style="
-                  transform: translate3d(-1229px, 0px, 0px);
-                  transition: all 0s ease 0s;
-                  width: 3688px;
-                "
-              >
+        </section>
+        <footer>
+            <div class="container">
                 <div
-                  class="owl-item cloned"
-                  style="width: 379.667px; margin-right: 30px"
+                    class="footer__top wow animate__ animate__fadeInUp animated"
+                    style="visibility: visible; animation-name: fadeInUp"
                 >
-                  <div class="blog__item">
-                    <div class="blog__header">
-                      <img src="./Samar/pic1_1.jpg" alt="" />
-                      <p>23 MARCH 2022</p>
+                    <div class="footer__text">
+                        <h2>Subscribe To Our Newsletter</h2>
                     </div>
-                    <div class="blog__body">
-                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                      <p>
-                        Nunc convallis sagittis dui eu dictum. Cras sodales id
-                        ipsum ac aliquam. Phasellus justo quam.
-                      </p>
+                    <div class="footer__form">
+                        <form>
+                            <input
+                                type="text"
+                                name=""
+                                id=""
+                                placeholder="Your Email Address"
+                            />
+                            <button>
+                                <i class="las la-paper-plane"></i>
+                            </button>
+                        </form>
                     </div>
-                    <div class="blog__footer">
-                      <p>
-                        <i class="las la-user-circle"></i>
-                        By
-                        <span>Johne Doe</span>
-                      </p>
-                      <p>
-                        <i class="las la-comment"></i>
-                        <span>Comments 15</span>
-                      </p>
-                    </div>
-                  </div>
                 </div>
-                <div
-                  class="owl-item cloned"
-                  style="width: 379.667px; margin-right: 30px"
-                >
-                  <div class="blog__item">
-                    <div class="blog__header">
-                      <img src="./Samar/pic2.jpg" alt="" />
-                      <p>23 MARCH 2022</p>
+                <div class="footer__bottom">
+                    <div
+                        class="footer__item wow animate__ animate__fadeIn animate__delay-1s animated"
+                        style="visibility: visible; animation-name: fadeIn"
+                    >
+                        <a href="#">
+                            <img src="./Samar/logo-white.png" alt="" />
+                        </a>
+                        <ul class="footer__contact">
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <span>
+                                    1800-123-4567
+                                    <br />
+                                    +91 987-654-3210
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <span>
+                                    info@example.com
+                                    <br />
+                                    services@gmail.com
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>
+                                    Demo Address #8901 Marmora
+                                    <br />
+                                    Road City
+                                </span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="blog__body">
-                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                      <p>
-                        Nunc convallis sagittis dui eu dictum. Cras sodales id
-                        ipsum ac aliquam. Phasellus justo quam.
-                      </p>
+                    <div
+                        class="footer__item wow animate__ animate__fadeIn animate__delay-1s animated"
+                        style="visibility: visible; animation-name: fadeIn"
+                    >
+                        <h3>Our links</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Team
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="blog__footer">
-                      <p>
-                        <i class="las la-user-circle"></i>
-                        By
-                        <span>Johne Doe</span>
-                      </p>
-                      <p>
-                        <i class="las la-comment"></i>
-                        <span>Comments 20</span>
-                      </p>
+                    <div
+                        class="footer__item wow animate__ animate__fadeIn animate__delay-1s animated"
+                        style="visibility: visible; animation-name: fadeIn"
+                    >
+                        <h3>Our Services</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Strategy &amp; Research
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Web Development
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Web Solution
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Digital Marketing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    App Design
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                  </div>
+                    <div
+                        class="footer__item wow animate__ animate__fadeIn animate__delay-1s animated"
+                        style="visibility: visible; animation-name: fadeIn"
+                    >
+                        <h3>Other links</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    FAQ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Terms &amp; Conditions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Support
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div
-                  class="owl-item cloned"
-                  style="width: 379.667px; margin-right: 30px"
-                >
-                  <div class="blog__item">
-                    <div class="blog__header">
-                      <img src="./Samar/pic3.jpg" alt="" />
-                      <p>23 MARCH 2022</p>
-                    </div>
-                    <div class="blog__body">
-                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                      <p>
-                        Nunc convallis sagittis dui eu dictum. Cras sodales id
-                        ipsum ac aliquam. Phasellus justo quam.
-                      </p>
-                    </div>
-                    <div class="blog__footer">
-                      <p>
-                        <i class="las la-user-circle"></i>
-                        By
-                        <span>Johne Doe</span>
-                      </p>
-                      <p>
-                        <i class="las la-comment"></i>
-                        <span>Comments 20</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item active"
-                  style="width: 379.667px; margin-right: 30px"
-                >
-                  <div class="blog__item">
-                    <div class="blog__header">
-                      <img src="./Samar/pic1_1.jpg" alt="" />
-                      <p>23 MARCH 2022</p>
-                    </div>
-                    <div class="blog__body">
-                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                      <p>
-                        Nunc convallis sagittis dui eu dictum. Cras sodales id
-                        ipsum ac aliquam. Phasellus justo quam.
-                      </p>
-                    </div>
-                    <div class="blog__footer">
-                      <p>
-                        <i class="las la-user-circle"></i>
-                        By
-                        <span>Johne Doe</span>
-                      </p>
-                      <p>
-                        <i class="las la-comment"></i>
-                        <span>Comments 15</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item active"
-                  style="width: 379.667px; margin-right: 30px"
-                >
-                  <div class="blog__item">
-                    <div class="blog__header">
-                      <img src="./Samar/pic2.jpg" alt="" />
-                      <p>23 MARCH 2022</p>
-                    </div>
-                    <div class="blog__body">
-                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                      <p>
-                        Nunc convallis sagittis dui eu dictum. Cras sodales id
-                        ipsum ac aliquam. Phasellus justo quam.
-                      </p>
-                    </div>
-                    <div class="blog__footer">
-                      <p>
-                        <i class="las la-user-circle"></i>
-                        By
-                        <span>Johne Doe</span>
-                      </p>
-                      <p>
-                        <i class="las la-comment"></i>
-                        <span>Comments 3</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item active"
-                  style="width: 379.667px; margin-right: 30px"
-                >
-                  <div class="blog__item">
-                    <div class="blog__header">
-                      <img src="./Samar/pic3.jpg" alt="" />
-                      <p>23 MARCH 2022</p>
-                    </div>
-                    <div class="blog__body">
-                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                      <p>
-                        Nunc convallis sagittis dui eu dictum. Cras sodales id
-                        ipsum ac aliquam. Phasellus justo quam.
-                      </p>
-                    </div>
-                    <div class="blog__footer">
-                      <p>
-                        <i class="las la-user-circle"></i>
-                        By
-                        <span>Johne Doe</span>
-                      </p>
-                      <p>
-                        <i class="las la-comment"></i>
-                        <span>Comments 7</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item cloned"
-                  style="width: 379.667px; margin-right: 30px"
-                >
-                  <div class="blog__item">
-                    <div class="blog__header">
-                      <img src="./Samar/pic1_1.jpg" alt="" />
-                      <p>23 MARCH 2022</p>
-                    </div>
-                    <div class="blog__body">
-                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                      <p>
-                        Nunc convallis sagittis dui eu dictum. Cras sodales id
-                        ipsum ac aliquam. Phasellus justo quam.
-                      </p>
-                    </div>
-                    <div class="blog__footer">
-                      <p>
-                        <i class="las la-user-circle"></i>
-                        By
-                        <span>Johne Doe</span>
-                      </p>
-                      <p>
-                        <i class="las la-comment"></i>
-                        <span>Comments 15</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item cloned"
-                  style="width: 379.667px; margin-right: 30px"
-                >
-                  <div class="blog__item">
-                    <div class="blog__header">
-                      <img src="./Samar/pic2.jpg" alt="" />
-                      <p>23 MARCH 2022</p>
-                    </div>
-                    <div class="blog__body">
-                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                      <p>
-                        Nunc convallis sagittis dui eu dictum. Cras sodales id
-                        ipsum ac aliquam. Phasellus justo quam.
-                      </p>
-                    </div>
-                    <div class="blog__footer">
-                      <p>
-                        <i class="las la-user-circle"></i>
-                        By
-                        <span>Johne Doe</span>
-                      </p>
-                      <p>
-                        <i class="las la-comment"></i>
-                        <span>Comments 18</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item cloned"
-                  style="width: 379.667px; margin-right: 30px"
-                >
-                  <div class="blog__item">
-                    <div class="blog__header">
-                      <img src="./Samar/pic3.jpg" alt="" />
-                      <p>23 MARCH 2022</p>
-                    </div>
-                    <div class="blog__body">
-                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                      <p>
-                        Nunc convallis sagittis dui eu dictum. Cras sodales id
-                        ipsum ac aliquam. Phasellus justo quam.
-                      </p>
-                    </div>
-                    <div class="blog__footer">
-                      <p>
-                        <i class="las la-user-circle"></i>
-                        By
-                        <span>Johne Doe</span>
-                      </p>
-                      <p>
-                        <i class="las la-comment"></i>
-                        <span>Comments 15</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="owl-nav disabled">
-              <button type="button" role="presentation" class="owl-prev">
-                <span aria-label="Previous">‹</span></button
-              ><button type="button" role="presentation" class="owl-next">
-                <span aria-label="Next">›</span>
-              </button>
+            <div class="footer__copyright">
+                <div class="container footer__content">
+                    <div class="footer__left">
+                        Copyright © 2021 <span>DexignZone</span> . All rights reserved.
+                    </div>
+                    <div class="footer__right">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="owl-dots disabled">
-              <button role="button" class="owl-dot active">
-                <span></span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <div
-          class="footer__top wow animate__ animate__fadeInUp animated"
-          style="visibility: visible; animation-name: fadeInUp"
+        </footer>
+
+        <!-- JQUERY -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- WAYPOINT -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+            integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <!-- Wow -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+        <!-- COUNT UP -->
+        <script src="./CountingUp/jquery.countup.min.js"></script>
+        <script>
+            $(".counter").countUp({
+                delay: 10,
+                time: 3000,
+            });
+        </script>
+
+        <!-- FANCY BOX -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+        <!-- OWL CAROUSEL -->
+
+        <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+        <script>
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+        </script>
+
+        <!-- SWIPER -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper@8.0.7/swiper-bundle.min.js"></script>
+        <script>
+            var testimonialThumbs = new Swiper(".testimonial__thumbs", {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                centeredSlides: true,
+                freeMode: true,
+                autoplay: true,
+                loop: true,
+                speed: 3000,
+            });
+            var testimonialContent = new Swiper(".testimonial__comment", {
+                spaceBetween: 10,
+                autoplay: true,
+                loop: true,
+                speed: 3000,
+                thumbs: {
+                    swiper: testimonialThumbs,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+
+        <!-- BACK TO TOP -->
+        <a
+            href="#"
+            class="backToTop cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
         >
-          <div class="footer__text">
-            <h2>Subscribe To Our Newsletter</h2>
-          </div>
-          <div class="footer__form">
-            <form>
-              <input
-                type="text"
-                name=""
-                id=""
-                placeholder="Your Email Address"
-              />
-              <button>
-                <i class="las la-paper-plane"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="footer__bottom">
-          <div
-            class="footer__item wow animate__ animate__fadeIn animate__delay-1s animated"
-            style="visibility: visible; animation-name: fadeIn"
-          >
-            <a href="#">
-              <img src="./Samar/logo-white.png" alt="" />
-            </a>
-            <ul class="footer__contact">
-              <li>
-                <i class="fa fa-phone"></i>
-                <span>
-                  1800-123-4567
-                  <br />
-                  +91 987-654-3210
-                </span>
-              </li>
-              <li>
-                <i class="fa fa-envelope"></i>
-                <span>
-                  info@example.com
-                  <br />
-                  services@gmail.com
-                </span>
-              </li>
-              <li>
-                <i class="fas fa-map-marker-alt"></i>
-                <span>
-                  Demo Address #8901 Marmora
-                  <br />
-                  Road City
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="footer__item wow animate__ animate__fadeIn animate__delay-1s animated"
-            style="visibility: visible; animation-name: fadeIn"
-          >
-            <h3>Our links</h3>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Team
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="footer__item wow animate__ animate__fadeIn animate__delay-1s animated"
-            style="visibility: visible; animation-name: fadeIn"
-          >
-            <h3>Our Services</h3>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Strategy &amp; Research
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Web Development
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Web Solution
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Digital Marketing
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  App Design
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="footer__item wow animate__ animate__fadeIn animate__delay-1s animated"
-            style="visibility: visible; animation-name: fadeIn"
-          >
-            <h3>Other links</h3>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Terms &amp; Conditions
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-angle-right"></i>
-                  Support
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer__copyright">
-        <div class="container footer__content">
-          <div class="footer__left">
-            Copyright © 2021 <span>DexignZone</span> . All rights reserved.
-          </div>
-          <div class="footer__right">
-            <a href="#">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- JQUERY -->
-    <script
-      src="https://code.jquery.com/jquery-1.12.4.js"
-      integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- WAYPOINT -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <!-- Wow -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-
-    <!-- COUNT UP -->
-    <script src="./CountingUp/jquery.countup.min.js"></script>
-    <script>
-      $(".counter").countUp({
-        delay: 10,
-        time: 3000,
-      });
-    </script>
-
-    <!-- FANCY BOX -->
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-
-    <!-- OWL CAROUSEL -->
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script>
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 30,
-        nav: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 2,
-          },
-          1000: {
-            items: 3,
-          },
-        },
-      });
-    </script>
-
-    <!-- SWIPER -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/swiper@8.0.7/swiper-bundle.min.js"></script>
-    <script>
-      var testimonialThumbs = new Swiper(".testimonial__thumbs", {
-        spaceBetween: 10,
-        slidesPerView: 3,
-        centeredSlides: true,
-        freeMode: true,
-        autoplay: true,
-        loop: true,
-        speed: 3000,
-      });
-      var testimonialContent = new Swiper(".testimonial__comment", {
-        spaceBetween: 10,
-        autoplay: true,
-        loop: true,
-        speed: 3000,
-        thumbs: {
-          swiper: testimonialThumbs,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script>
-
-    <!-- BACK TO TOP -->
-    <a
-      href="#"
-      class="backToTop cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
-    >
-      <i class="fa fa-arrow-up"></i>
-    </a>
-  </body>
+            <i class="fa fa-arrow-up"></i>
+        </a>
+    </body>
 </html>
